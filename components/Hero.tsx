@@ -16,7 +16,6 @@ const Hero = () => {
       const { clientX, clientY } = e;
       const { innerWidth, innerHeight } = window;
 
-      // Calculate mouse position relative to the center of the screen
       const xPos = (clientX / innerWidth - 0.5) * 20;
       const yPos = (clientY / innerHeight - 0.5) * 20;
 
@@ -26,7 +25,6 @@ const Hero = () => {
 
     window.addEventListener("mousemove", handleMouseMove);
 
-    // Create mouse trail effect
     const handleTrail = (e: MouseEvent) => {
       const trail = document.createElement("div");
       trail.className = "mouse-trail";
