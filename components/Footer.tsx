@@ -12,7 +12,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/hasibulislam999",
+      href: "https://github.com/Nayeem1872",
       ariaLabel: "GitHub Profile",
     },
     {
@@ -27,7 +27,7 @@ const Footer = () => {
     },
     {
       icon: Mail,
-      href: "mailto:hasib143sl@gmail.com",
+      href: "mailto:hasibul.islam.1872@gmail.com",
       ariaLabel: "Email Contact",
     },
   ];
@@ -113,7 +113,7 @@ const Footer = () => {
                   href="mailto:hasib143sl@gmail.com"
                   className="hover:text-white transition-colors"
                 >
-                  hasib143sl@gmail.com
+                  hasibul.islam.1872@gmail.com
                 </a>
               </li>
               <li>
@@ -121,10 +121,10 @@ const Footer = () => {
                   href="tel:+8801906315901"
                   className="hover:text-white transition-colors"
                 >
-                  +880 1906-315901
+                  +880 1845588514
                 </a>
               </li>
-              <li>Chattogram, Bangladesh</li>
+              <li>Dhaka, Bangladesh</li>
             </ul>
           </motion.div>
         </div>

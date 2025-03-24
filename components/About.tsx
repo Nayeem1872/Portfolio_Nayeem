@@ -201,14 +201,14 @@ const About = () => {
                   >
                     <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full bg-blue-500"></div>
                     <h4 className="text-lg font-semibold text-gray-900">
-                      Senior Frontend Developer
+                      Mid-Level Software Engineer
                     </h4>
                     <p className="text-gray-500 text-sm mb-1">
-                      Company Name • 2021 - Present
+                      Alo IT Consultants • December 2023 – Present
                     </p>
                     <p className="text-gray-600">
-                      Led development of responsive web applications using React
-                      and TypeScript.
+                      Led development of web applications using React,nextjs and
+                      TypeScript.
                     </p>
                   </motion.div>
 
@@ -218,10 +218,10 @@ const About = () => {
                   >
                     <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full bg-teal-500"></div>
                     <h4 className="text-lg font-semibold text-gray-900">
-                      Web Developer
+                      Junior Software Engineer
                     </h4>
                     <p className="text-gray-500 text-sm mb-1">
-                      Company Name • 2018 - 2021
+                      Valkyrie IT Limited: • January 2023 – November-2023
                     </p>
                     <p className="text-gray-600">
                       Developed and maintained client websites and web
@@ -235,10 +235,10 @@ const About = () => {
                   >
                     <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full bg-purple-500"></div>
                     <h4 className="text-lg font-semibold text-gray-900">
-                      BS in Computer Science
+                      B.Sc in Computer Science and Engineering
                     </h4>
                     <p className="text-gray-500 text-sm mb-1">
-                      University Name • 2014 - 2018
+                      East West University • 2018 - 2022
                     </p>
                     <p className="text-gray-600">
                       Graduated with honors, specializing in web technologies.

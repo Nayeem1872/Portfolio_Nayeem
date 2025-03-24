@@ -116,18 +116,16 @@ const Projects = () => {
     {
       title: "Car E-commerce Platform",
       description:
-        "A comprehensive car e-commerce platform with modern UI, filtering capabilities, and responsive design for seamless vehicle shopping experience.",
-      image:
-        "https://raw.githubusercontent.com/adrianhajdin/project_next_13_car_showcase/main/public/hero.png",
+        "A comprehensive car e-commerce platform featuring a modern UI, advanced filtering capabilities, and responsive design for a seamless vehicle shopping experience. It also includes an intuitive admin dashboard for managing inventory, orders, and customer interactions, along with secure user authentication, detailed analytics, and more for a robust, end-to-end solution.",
+      image: "/images/web1.png",
       tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Headless UI"],
       liveUrl: "https://car-ecom-dev-x-7c4w.vercel.app/",
     },
     {
       title: "NIAM Cloud Services",
       description:
-        "Corporate website for NIAM cloud services featuring elegant design, service showcases, and responsive interfaces for enterprise clients.",
-      image:
-        "https://res.cloudinary.com/diqtzk6hj/image/upload/v1715966353/niam_ogzw2w.jpg",
+        "A sophisticated corporate website for NIAM (Identity and Access Management) cloud services, offering an elegant design and responsive interfaces tailored for enterprise clients. The platform integrates advanced IAM capabilities, including role-based access control, multi-factor authentication, and dynamic permissions management. Leveraging Docker for containerization, the system ensures scalable and secure deployment, while providing a seamless experience for managing identities, access, and complex workflows across multiple platforms.",
+      image: "/images/web5.png",
       tags: [
         "React",
         "Next.js",
@@ -140,27 +138,24 @@ const Projects = () => {
     {
       title: "N-AMS Platform",
       description:
-        "A multilingual asset management solution with dashboard interfaces, data visualization, and comprehensive management tools.",
-      image:
-        "https://res.cloudinary.com/diqtzk6hj/image/upload/v1715966353/n-ams_rvkbbm.jpg",
+        "A powerful multilingual asset management and audit management solution featuring intuitive dashboard interfaces, data visualization, and comprehensive management tools. The platform includes a robust audit report editor with customizable templates, enabling users to generate professional audit reports similar to Word documents. This feature, along with other advanced tools for audit tracking, data analysis, and asset management, provides a seamless experience for managing audits and assets across multiple languages and regions.",
+      image: "/images/web6.png",
       tags: ["React", "i18n", "Dashboard", "Material UI", "Data Visualization"],
       liveUrl: "https://n-ams-f-ront.vercel.app/en",
     },
     {
-      title: "Dealz E-commerce",
+      title: "Blink Restaurant Website",
       description:
-        "Feature-rich e-commerce platform with product catalog, shopping cart, and secure checkout flows designed for modern shopping experiences.",
-      image:
-        "https://res.cloudinary.com/diqtzk6hj/image/upload/v1715966353/dealz_kk7crc.jpg",
+        "A beautifully designed, feature-rich website for Blink Restaurant, offering a seamless online ordering experience. The platform includes an intuitive menu with a product catalog, easy-to-navigate shopping cart, and secure checkout flows. Customers can enjoy a modern, responsive design optimized for both desktop and mobile, along with secure payment processing through Stripe and authentication for personalized service. The site provides a delightful user experience, making it the perfect digital destination for food lovers.",
+      image: "/images/web4.png",
       tags: ["React", "Redux", "Stripe", "Responsive Design", "Authentication"],
       liveUrl: "https://dealz-website.vercel.app/",
     },
     {
       title: "Coming Soon Landing Page",
       description:
-        "Elegant and animated coming soon page with email subscription and social media integration for pre-launch marketing.",
-      image:
-        "https://res.cloudinary.com/diqtzk6hj/image/upload/v1715966353/comingsoon_qe0xtc.jpg",
+        "A pixel-perfect, elegant coming soon landing page meticulously crafted from Figma, featuring smooth animations, an engaging countdown timer, and seamless email subscription integration. Designed for pre-launch marketing, this page also includes social media integration, ensuring a professional and captivating user experience. Whether viewed on desktop or mobile, this responsive design provides a polished, high-quality preview of what's to come.",
+      image: "/images/web2.png",
       tags: [
         "React",
         "Animation",

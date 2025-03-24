@@ -300,30 +300,10 @@ const Contact = () => {
                   </motion.a>
                 ))}
               </div>
-
-              <div className="mt-10">
-                <h4 className="text-sm font-medium text-blue-200 mb-4">
-                  Follow me
-                </h4>
-                <div className="flex gap-4">
-                  {/* Social media icons */}
-                  {[1, 2, 3, 4].map((_, index) => (
-                    <motion.a
-                      key={index}
-                      href="#"
-                      className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
-                      whileHover={{ y: -5 }}
-                    >
-                      {/* Placeholder for social media icons */}
-                      <span className="text-xs">{index + 1}</span>
-                    </motion.a>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* Availability card */}
-            <div className="rounded-2xl bg-white p-8 shadow-xl">
+            {/* <div className="rounded-2xl bg-white p-8 shadow-xl">
               <h3 className="text-xl font-bold mb-6">My Availability</h3>
               <p className="text-gray-600 mb-4">
                 I'm currently available for freelance work and new
@@ -349,7 +329,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
