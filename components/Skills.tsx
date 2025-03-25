@@ -120,7 +120,7 @@ const Skills = () => {
             <Code className="inline-block mr-1 h-4 w-4" />
             My Skills
           </motion.span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl text-gray-700 font-bold mb-6">
             Technical Proficiency
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">

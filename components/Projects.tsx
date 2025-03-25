@@ -93,7 +93,7 @@ const Project = ({
 
       {/* Project details */}
       <motion.div style={{ x: translateX }} className="w-full md:w-1/2">
-        <h3 className="text-2xl font-bold">{title}</h3>
+        <h3 className="text-2xl font-bold text-gray-700">{title}</h3>
         <p className="mt-4 text-gray-600">{description}</p>
 
         <div className="mt-6 flex flex-wrap gap-2">
@@ -117,7 +117,7 @@ const Projects = () => {
       title: "Car E-commerce Platform",
       description:
         "A comprehensive car e-commerce platform featuring a modern UI, advanced filtering capabilities, and responsive design for a seamless vehicle shopping experience. It also includes an intuitive admin dashboard for managing inventory, orders, and customer interactions, along with secure user authentication, detailed analytics, and more for a robust, end-to-end solution.",
-      image: "/images/web1.png",
+      image: "/images/web1.PNG",
       tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Headless UI"],
       liveUrl: "https://car-ecom-dev-x-7c4w.vercel.app/",
     },
@@ -125,7 +125,7 @@ const Projects = () => {
       title: "NIAM Cloud Services",
       description:
         "A sophisticated corporate website for NIAM (Identity and Access Management) cloud services, offering an elegant design and responsive interfaces tailored for enterprise clients. The platform integrates advanced IAM capabilities, including role-based access control, multi-factor authentication, and dynamic permissions management. Leveraging Docker for containerization, the system ensures scalable and secure deployment, while providing a seamless experience for managing identities, access, and complex workflows across multiple platforms.",
-      image: "/images/web5.png",
+      image: "/images/web5.PNG",
       tags: [
         "React",
         "Next.js",
@@ -139,7 +139,7 @@ const Projects = () => {
       title: "N-AMS Platform",
       description:
         "A powerful multilingual asset management and audit management solution featuring intuitive dashboard interfaces, data visualization, and comprehensive management tools. The platform includes a robust audit report editor with customizable templates, enabling users to generate professional audit reports similar to Word documents. This feature, along with other advanced tools for audit tracking, data analysis, and asset management, provides a seamless experience for managing audits and assets across multiple languages and regions.",
-      image: "/images/web6.png",
+      image: "/images/web6.PNG",
       tags: ["React", "i18n", "Dashboard", "Material UI", "Data Visualization"],
       liveUrl: "https://n-ams-f-ront.vercel.app/en",
     },
@@ -147,7 +147,7 @@ const Projects = () => {
       title: "Blink Restaurant Website",
       description:
         "A beautifully designed, feature-rich website for Blink Restaurant, offering a seamless online ordering experience. The platform includes an intuitive menu with a product catalog, easy-to-navigate shopping cart, and secure checkout flows. Customers can enjoy a modern, responsive design optimized for both desktop and mobile, along with secure payment processing through Stripe and authentication for personalized service. The site provides a delightful user experience, making it the perfect digital destination for food lovers.",
-      image: "/images/web4.png",
+      image: "/images/web4.PNG",
       tags: ["React", "Redux", "Stripe", "Responsive Design", "Authentication"],
       liveUrl: "https://dealz-website.vercel.app/",
     },
@@ -155,7 +155,7 @@ const Projects = () => {
       title: "Coming Soon Landing Page",
       description:
         "A pixel-perfect, elegant coming soon landing page meticulously crafted from Figma, featuring smooth animations, an engaging countdown timer, and seamless email subscription integration. Designed for pre-launch marketing, this page also includes social media integration, ensuring a professional and captivating user experience. Whether viewed on desktop or mobile, this responsive design provides a polished, high-quality preview of what's to come.",
-      image: "/images/web2.png",
+      image: "/images/web2.PNG",
       tags: [
         "React",
         "Animation",
@@ -190,7 +190,7 @@ const Projects = () => {
             <Briefcase className="inline-block mr-1 h-4 w-4" />
             My Work
           </motion.span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl text-gray-700 font-bold mb-6">
             Featured Projects
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -218,7 +218,7 @@ const Projects = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <motion.a
-            href="https://github.com/hasibulislam999"
+            href="https://github.com/nayeem1872"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 font-medium"

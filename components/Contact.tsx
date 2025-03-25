@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -49,20 +49,26 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       title: "Email",
-      value: "yourname@example.com",
-      href: "mailto:yourname@example.com",
+      value: "hasibul.islam.1872@gmail.com",
+      href: "mailto:hasibul.islam.1872@gmail.com",
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+8801845588514",
+      href: "mobile:+8801845588514",
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Eskaton, Dhaka, Bangladesh",
       href: "#",
+    },
+    {
+      icon: <MessageCircle className="h-5 w-5 " />,
+      title: "WhatsApp",
+      value: "+8801748326000",
+      href: "https://wa.me/8801748326000",
     },
   ];
 
@@ -91,7 +97,9 @@ const Contact = () => {
             <Mail className="inline-block mr-1 h-4 w-4" />
             Get In Touch
           </motion.span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Contact Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-700">
+            Contact Me
+          </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Have a project in mind or want to discuss potential opportunities?
             I'd love to hear from you! Feel free to reach out through the form
@@ -109,7 +117,9 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="p-8">
-              <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-700">
+                Send a Message
+              </h3>
 
               {submitted ? (
                 <motion.div
@@ -157,7 +167,7 @@ const Contact = () => {
                         value={formState.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors placeholder-gray-700"
                         placeholder="Your name"
                       />
                     </div>
@@ -175,7 +185,7 @@ const Contact = () => {
                         value={formState.email}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 placeholder-gray-700 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                         placeholder="your.email@example.com"
                       />
                     </div>
@@ -195,7 +205,7 @@ const Contact = () => {
                       value={formState.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 placeholder-gray-700 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="What's this about?"
                     />
                   </div>
@@ -214,7 +224,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 placeholder-gray-700 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="Your message here..."
                     />
                   </div>

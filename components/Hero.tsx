@@ -72,7 +72,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.h1
-              className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight tracking-tighter"
+              className="text-4xl md:text-5xl lg:text-6xl font-display text-gray-700 font-bold leading-tight tracking-tighter"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -115,12 +115,12 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               <motion.a
-                href="#projects"
+                href="https://drive.google.com/file/d/1ppTGTfXML1Xq8EEFKY7-2m_E-D74wxUE/view?usp=sharing"
                 className="portfolio-button"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                View My Work
+                Download CV
               </motion.a>
 
               <motion.a
@@ -161,7 +161,7 @@ const Hero = () => {
                   <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                     <span className="text-gray-400 text-sm">
                       <img
-                        src="/images/pic2.jpg"
+                        src="/images/pic2.JPG"
                         alt="Hasibul Islam"
                         className="w-full h-full object-cover"
                       />

@@ -67,7 +67,7 @@ const About = () => {
             <User className="inline-block mr-1 h-4 w-4" />
             About Me
           </motion.span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl text-gray-700 font-bold mb-6">
             Get to Know Me
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -98,7 +98,9 @@ const About = () => {
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-blue-100 text-blue-600 mr-4">
                     <Code className="h-6 w-6" />
                   </span>
-                  <h3 className="text-xl font-bold">Technical Skills</h3>
+                  <h3 className="text-xl font-bold text-gray-700">
+                    Technical Skills
+                  </h3>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
@@ -131,10 +133,12 @@ const About = () => {
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-purple-100 text-purple-600 mr-4">
                     <Zap className="h-6 w-6" />
                   </span>
-                  <h3 className="text-xl font-bold">My Approach</h3>
+                  <h3 className="text-xl font-bold text-gray-700">
+                    My Approach
+                  </h3>
                 </div>
 
-                <ul className="space-y-3">
+                <ul className="space-y-3 text-gray-700">
                   <motion.li
                     className="flex items-start"
                     variants={itemVariants}
@@ -191,7 +195,9 @@ const About = () => {
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-amber-100 text-amber-600 mr-4">
                     <Briefcase className="h-6 w-6" />
                   </span>
-                  <h3 className="text-xl font-bold">Experience & Education</h3>
+                  <h3 className="text-xl font-bold text-gray-700">
+                    Experience & Education
+                  </h3>
                 </div>
 
                 <div className="space-y-8">
